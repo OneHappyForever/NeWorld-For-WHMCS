@@ -7,7 +7,7 @@
 					<a class="navbar-brand" href="#">{$companyname}</a>
 					<p>&copy; {$date_year} {$companyname}. {$LANG.allrightsreserved}</p>
 				</div>
-				<div class="col-xs-4 col-sm-2">
+				<!--<div class="col-xs-4 col-sm-2">
 					<h4 class="title-head">{$LANG.footabout}</h4>
 					<ul class="list-unstyled">
 						<li><a href="#">Company</a></li>
@@ -44,6 +44,7 @@
 						<li><a href="#">Twitter</a></li>
 					</ul>
 				</div>
+				-->
 				<div class="col-sm-2 hidden-xs hidden-sm">
 					{if $languagechangeenabled && count($locales) > 1}
 			            <a href="javascript:;" id="languageChooser" class="language" data-toggle="popover">{$LANG.chooselanguage} <span class="caret"></span></a>
