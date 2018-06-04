@@ -24,13 +24,14 @@
 	                    <li {if $templatefile == 'features'} class="active"{/if}>
 	                    	<a href="{$systemurl}features.php">{$LANG.features}</a>
 	                    </li>
-	                    <li {if $templatefile == 'pricing'} class="active"{/if}>
+	                    <!--<li {if $templatefile == 'pricing'} class="active"{/if}>
 	                    	<a href="{$systemurl}pricing.php">{$LANG.pricing}</a>
 	                    </li>
 	                    <li class="dropdown{if $templatefile == 'vps'} active{/if}">
 	                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{$LANG.hosting} <span class="caret"></span></a>
 	
-	                        <ul class="dropdown-menu">
+	                        
+				<ul class="dropdown-menu">
 	                            <li><a href="/shadowsocks/"><i class="fa fa-paper-plane"></i> Shadowsocks</a></li>
 	
 	                            <li><a href="/sharehosting/"><i class="fa fa-group"></i> Shared Hosting</a></li>
@@ -40,6 +41,7 @@
 	                            <li><a href="/dedicated/"><i class="fa fa-server"></i> Dedicated Hosting</a></li>
 	                        </ul>
 	                    </li>
+			    -->
 	                    <li {if $templatefile == 'contact'} class="active"{/if}>
 	                    	<a href="{$systemurl}contact.php">{$LANG.homecontact}</a>
 	                    </li>
@@ -84,9 +86,9 @@
 	{if $templatefile == 'homepage'}
 	    	<div class="home-slider space3x">
 		    	<div class="col-sm-6 col-md-5">
-		    		<h2 class="wow fadeInDown">See Our Simple Pricing,<br/>No Bandwidth Overages!</h2>
-		    		<p class="wow fadeInDown">Form early to enterprise, we've got you covered Starts with 14 days free. Annual payment earns you two months free!</p>
-		    		<a href="#" class="btn btn-success">{$LANG.getstarted}</a>
+		    		<h2 class="wow fadeInDown">Watch The Content You Paid For,<br/>Anywhere On Earth!</h2>
+		    		<p class="wow fadeInDown">Watch all your favorite shows on our premium lines. Unblocks US and Japan Netflix.</p>
+		    		<a href="https://customer.wannaflix.com/cart.php" class="btn btn-success">{$LANG.getstarted}</a>
 		    	</div>
 	    	</div>
 	{/if}
