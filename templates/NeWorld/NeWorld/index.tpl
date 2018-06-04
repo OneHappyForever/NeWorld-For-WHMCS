@@ -1,4 +1,4 @@
-
+<--
 <section class="home-pricing space">
 	<div class="container">
 		<div class="row">
@@ -297,3 +297,4 @@
 		<p class="tos text-center">{$LANG.clikingiagree} <a href="{$WEB_ROOT}/tos/">{$LANG.ordertos}</a></p>
 	</div>
 </section>
+-->
