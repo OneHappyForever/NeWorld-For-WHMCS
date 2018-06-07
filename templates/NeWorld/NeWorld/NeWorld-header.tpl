@@ -87,7 +87,7 @@
 	    	<div class="home-slider space3x">
 		    	<div class="col-sm-6 col-md-5">
 		    		<h2 class="wow fadeInDown">Watch The Content You Paid For,<br/>Anywhere On Earth!</h2>
-		    		<p class="wow fadeInDown">Watch all your favorite shows on our premium lines. Unblocks US and Japan Netflix. FREE 3-day trial.</p>
+		    		<p class="wow fadeInDown">Watch all your favorite shows on our premium lines. Unblocks US, UK and Japan Netflix.</p>
 		    		<a href="https://customer.wannaflix.com/cart.php" class="btn btn-success">Sign me up!</a>
 		    	</div>
 	    	</div>
